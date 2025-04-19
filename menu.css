@@ -89,15 +89,22 @@ font-size: x-large;
     #Kitisuru {
         background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg');
         background-size: cover;
-        width: 30vw;
-        height: 80vw;
+        width: 100vw;
+        height: 100vw;
     
     }
-    
+    #kilimani a{
+        font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+            color: antiquewhite;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
     .kilimani {
         background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg');
-        width: 30vw;
-        height: 80vw;
+        width: 100vw;
+        height: 100vw;
         background-size: cover;
     
     

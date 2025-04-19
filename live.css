@@ -219,18 +219,18 @@ font-size: 40px;
           .songs{
             overflow: scroll;
             height: 100vw;
-            width: 30vw;
+            width: 80vw;
             
             
             
     
         }
         .txt_live h2{
-            font-size: large;
+            
             font-weight: bolder;
             /* color: rgb(255, 0, 0); */
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
             
         }
         .txt_live h5{
