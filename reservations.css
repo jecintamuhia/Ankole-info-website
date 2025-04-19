@@ -1,0 +1,155 @@
+#reservation{
+    background-image: url('contact.images/pexels-vidalbalielojrfotografia-12688961.jpg');
+    background-size: cover;
+    width: 68vw;
+   height: 50vw;
+   align-items: center;
+    
+}
+.reservation-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+#logo{
+   margin:auto;
+}
+
+#reservation b{
+    color: brown;
+    font-style: oblique;
+    font-size: 30px;
+    font-display: 45px;
+}
+
+
+.reservation-container form{
+    background-color: black;
+padding: 20px;
+width: 40vw;
+height: 50vw;
+display: flex;
+margin-left: 20px;
+justify-content: center;
+
+overflow: hidden;
+
+
+
+
+
+}
+
+
+.reservation-container form , b{
+    color: antiquewhite;
+}
+input[type=text], input[type=password]{
+width: 180%;
+padding: 10px;
+margin: 10px 0 25px 0;
+display: inline-block;
+border: solid 1px;
+color:none;
+background-color: black;
+/* border-radius: 50px; */
+color: grey;
+
+}
+.header-logo{
+   align-items: center;
+}
+#logo{
+   display: flex;
+   align-self: center;
+  
+}
+#reservation p{
+    padding-left: 350px;
+    gap:7%;
+     font-size: 70px;
+     color: brown;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#reservation h1{
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    display: block;
+}
+input[type=time]{
+    width: 180%;
+padding: 10px;
+padding-top: 10px;
+border-color: grey;
+color: grey;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: solid 1px;
+background-color: black;
+}
+input[type=tel], input[type=number], input[type=date]{
+width: 180%;
+padding: 10px;
+padding-top: 10px;
+border-color: grey;
+color: grey;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: solid 1px;
+background-color: black;
+/* border-radius: 50px; */
+}
+#reservation h1{
+text-align: center;
+
+
+}
+
+
+button[type=submit]{
+align-self: center;
+padding: 20px; 
+padding-right: 20px;
+padding-left: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 5px 0 22px 0;
+border-radius: 10px;
+color:black;
+width: 180%;
+background-color:rgb(179, 144, 79);
+cursor: auto;
+
+}
+
+.active, .submitbtn:hover {
+    background-color: #666;
+    color: white;
+  }
+input[type=date]{
+    color:grey;
+}
+.reservations{
+background-color: black;
+}
+#reservation h1{
+text-align: center;
+padding-top:120px;
+color:white;
+}
+.navbar-link a{
+display: inline-block;
+}
+.navbar-link{
+    color: grey;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

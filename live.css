@@ -1,0 +1,266 @@
+.images{
+    display: flex;
+    gap: 13%;
+
+}
+body{
+    background-color: black;
+        overflow-y: hidden;
+        overflow-x: hidden; 
+      
+}
+.live{
+    display: flex;
+    
+    
+    
+}.txt_live:hover{
+    transform: scale(1.05);
+}
+#logo_live{
+    margin: auto;
+
+}
+
+
+.Mush_container{
+    display: flex;
+    gap: 2.5%;
+    margin-top: -4%;
+}.main_live{
+    display: flex;
+    gap: 8%;
+    margin-top: 4%;
+}
+
+
+.Mush_container img{
+    width: 35%;
+    
+}
+.main_live img{
+width: 35%;
+
+}
+.text p{
+    color: rgba(255, 0, 0, 0.89); 
+}
+
+.mush p{
+    color: rgba(255, 0, 0, 0.89); 
+}
+.muguna p{ 
+    color: rgba(255, 0, 0, 0.89);    
+}
+.txt_live h2{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    
+}
+.txt_live h5{
+    color:white;
+font-size: 40px;
+    text-align: center;
+    
+}
+
+
+.mush h2,.muguna h2{
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo_main img{
+    padding-left: 370px;
+    max-width:180px;
+}
+
+.txt_live{
+    margin-top: 10%;
+    margin-left: 4%;
+    display: block;
+    text-align: center;
+    
+    padding-top: 100px;
+}
+.mush{
+    margin-top: 10%;
+}
+.muguna_container{
+    margin-top: 8%;
+}
+
+    
+    
+     .nav a{
+       color: white;
+       font-size: 115%;
+       text-decoration: none;
+     }
+     
+    
+    .nav {
+        display: inline-flex;
+        gap: 7%;
+        /* margin-left: 40%; */
+        font-size: 1.2em;
+        padding-top: 2%;
+        
+    }
+    
+    .nav a {
+        color: whitesmoke;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        font-size: 1em;
+    }
+    .navbar-inner{
+        display: flex;
+    }
+    .navbar-link{
+        nav-left: auto;
+        nav-right: auto;
+        padding-left: 0%;
+    }
+    .navbar{
+        position:absolute;
+        width:45%;
+        overflow: hidden;
+        border: 1px solid black;
+        border-radius: 70px;
+        background-color: black;
+        color: beige;
+        padding: 2%;
+        left:20px;
+    
+        
+        top: 85%;
+        justify-content: space-between;
+        margin-right: -5%;
+        
+    }
+    .navbar .button {
+        background-color: grey;
+        border-radius: 5px;
+        padding: 5px;
+       right: 2%;
+        color: black;
+        font-size: medium;
+    }
+    
+    .nav a:hover {
+        color: rgb(224, 168, 55);
+    
+    }
+    
+        
+    
+    
+    
+    .live_container{
+        display: flex;
+        align-items: center;
+        position: relative;
+       
+    }
+    
+    .live{
+        background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url('contact.images/—Pngtree—a large crowd at concert_16391034.png');
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        
+        text-align: center;
+        
+        background-size: cover;
+        background-position: center;
+      } 
+      .songs img:hover{
+         transform: scale(1.05);
+      }
+      .songs{
+        overflow: scroll;
+        height: 100vh;
+        width: 50%;
+        
+        
+        
+
+    }
+    .songs{
+        /* overflow-y: hidden; */
+        overflow-x: hidden; 
+       width:100%;
+        margin-left: 500px;
+       
+      }
+      img{
+        width:80%;
+      }
+      
+      @media only screen and (max-width: 200px){
+        .live{
+            background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url('contact.images/—Pngtree—a large crowd at concert_16391034.png');
+            background-repeat: no-repeat;
+            height: 50vh;
+            width: 40vw;
+            
+            text-align: center;
+            
+            background-size: cover;
+            background-position: center;
+          } 
+          .songs{
+            overflow: scroll;
+            height: 100vw;
+            width: 30vw;
+            
+            
+            
+    
+        }
+        .txt_live h2{
+            font-size: large;
+            font-weight: bolder;
+            /* color: rgb(255, 0, 0); */
+            text-align: center;
+            font-size: 40px;
+            
+        }
+        .txt_live h5{
+            color:white;
+        font-size: 20px;
+            text-align: center;
+            
+        }
+        .songs{
+            /* overflow-y: hidden; */
+            overflow-x: hidden; 
+           width:50vw;
+            margin-left: 100px;
+           
+          }
+          .navbar{
+            position:absolute;
+            width:20vw;
+            overflow: hidden;
+            border: 1px solid black;
+            border-radius: 70px;
+            background-color: black;
+            color: beige;
+            padding: 2%;
+            left:20px;
+        
+            
+            top: 85%;
+            justify-content: space-between;
+            margin-right: -5%;
+            
+        }
+      }

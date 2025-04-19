@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/css/ankole-grill.webflow.ca6d06300.min.css" />
+    <link rel="shortcut icon" href="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c2f846c4a26655bd054c9a_32.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c2f8766b8f42a404851ef0_256.png"/>
+    <link rel="stylesheet" href="reservations.css"/>
+    
+
+</head>
+<body class="reservations">
+    <div class="header fixed">
+       
+        
+        
+        
+    </div>
+    <div class="reservation-container">
+        
+        <div id="reservation">
+            
+                <img  id ="logo"src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg" loading="eager" width="200" alt=""/>
+              
+            <div class="div_text">
+            <h1>Karibu </h1>
+            <br>
+           <p>Reservation</p>
+        </div>
+            
+            
+        </div>
+        <div>
+            <form id="reserve_container">
+             <div class="reserve_container">
+                <span>
+                <label for="name"><b>Name</b>
+    
+                </label>
+                <input type="text"placeholder="Enter Name" name="name" id="name" required>
+            </span>
+            <span>
+                <label for="location" ><b>location</b></label>
+                <input type="text" placeholder="Kitisuru(open 9am-closes 11pm)" name="location" id="location" required>
+            </span>
+            <span>
+                <label for="Email Address" ><b>Email Address</b></label>
+                <input type="text" placeholder="e.ginfo@email.com" name="email" id="email" required>
+            </span>
+            <span>
+                <label for="Tel/cell"><b>Tel/Cell</b></label>
+                <input type="tel" placeholder=" e.g 0700 000 000">
+            </span>
+            <span>
+
+                <label for="Number of Guests"><b>Number of Guests</b></label>
+                <input type="number" placeholder="(maximum of 8 guests)" name="Numberof guets" id="Number of guests" required>
+            </span>
+            <span>
+                <label for="date" > <b>Date</b></label>
+                <input type="date" placeholder="DD-MM-YYY" required>
+            </span>
+            <span>
+                <label for="time"><b>time</b></label>
+
+<input
+  type="time"
+  id="appointment"
+  name="appointment"
+  min="09:00"
+  max="18:00"
+  required />
+
+
+            </span>
+            <span>
+                 <button type="submit" class="submitbtn">submit</button> 
+                </span>
+                </div>
+                
+            </form>
+            
+         </div>
+         <div class="navbar-wrapper absolute">
+            <div class="navbar-inner">
+                <div class="whatsapp-block">
+                    <div id="whatsapp-button" class="whatsapp-container">
+                        <a href="https://api.whatsapp.com/send?phone=703212121&amp;text=Welcome%20to%20Ankole%20Grill.%20How%20may%20we%20be%20of%20assistance" target="_blank" class="w-inline-block">
+                            <img src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65f1530a6e14c6013ca628c8_whatsapp.svg" loading="lazy" alt="WhatsApp" class="whatsapp-icon"/>
+                        </a>
+                    </div>
+                </div>
+                <figure class="navbar">
+                    <div class="mobile-navigation-only">
+                       
+                    </div>
+                    <div class="navbar-link">
+                        <a href="/" class="navbar-link w-inline-block">Home</a>
+                        <a href="menu.html" class="navbar-link w-inline-block">Menu
+
+                        </a>
+                        <a href="reviews.html" class="navbar-link w-inline-block">Reviews</a>
+                        <a href="events.html" class="navbar-link w-inline-block">Events</a>
+                        <a href="live.html" class="navbar-link w-inline-block">Live</a>
+                        <a href="contacts.html" class="navbar-link w-inline-block">Contacts</a>
+                        
+                    </div>
+                    <a href="reservation.html" class="button inverse small w-inline-block">Reservations</a>
+                </figure>
+            </div>
+        </div>
+    </div> 
+   
+    
+</body>
+</html>

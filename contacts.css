@@ -1,0 +1,61 @@
+.contacts-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 300px;
+    padding-right: 400px;
+    
+}
+#contacts{
+    background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg');
+    color:aliceblue;
+    background-size: cover;
+    opacity: 7;
+    
+    
+   
+    
+    
+    
+    
+   
+}
+a:link { text-decoration: none; } a:visited { text-decoration: none; } a:hover { text-decoration: underline; }
+    a:link { color:white; } a:visited { color:white; } a:hover { background-color: grey;}
+.contacts-kitisuru{
+    border: 2px solid;
+    border-radius: 2px;
+    border: height 30vh;
+    text-size-adjust: 3px;
+    
+}
+.contacts-kilimani{
+    border: 2px solid;
+    border-radius: 2px;
+
+}
+.contacts-details{
+  font-family: Arial,  sans-serif;
+  font-size: x-large;
+  padding: 30px;
+ 
+}
+.contacts_page{
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  padding: 30px;
+  text-indent: 1px;
+  
+  
+  
+}
+.heading_contacts{
+  text-align: center;
+}
+.navbar-link{
+    color: azure;
+}
+.heading_contacts{
+    font-family: 'Times New Roman', Times, serif;
+}

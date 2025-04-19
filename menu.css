@@ -1,0 +1,106 @@
+#Kitisuru {
+    background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.kilimani {
+    background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg');
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+
+
+
+}
+
+#menu {
+    display: flex;
+}
+
+
+
+
+#Kitisuru h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    
+
+}
+#Kitisuru h2{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#Kitisuru a{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+#Kitisuru{
+    align-items: center;
+    padding-top: 500px;
+}
+#kilimani{
+align-items: center;
+padding-top:500px ;
+}
+#kilimani h1{
+font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+}
+#kilimani h2{
+font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#kilimani a{
+font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    #Kitisuru {
+        background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg');
+        background-size: cover;
+        width: 30vw;
+        height: 80vw;
+    
+    }
+    
+    .kilimani {
+        background-image: url('https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg');
+        width: 30vw;
+        height: 80vw;
+        background-size: cover;
+    
+    
+    
+    }
+}
